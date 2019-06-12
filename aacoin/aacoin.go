@@ -1,9 +1,10 @@
 package aacoin
 
 import (
-	. "github.com/nntaoli-project/GoEx"
 	"net/http"
 	"net/url"
+
+	. "github.com/taylorshuang/GoEx"
 
 	"encoding/json"
 	"errors"

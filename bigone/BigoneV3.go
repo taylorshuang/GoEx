@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/nntaoli-project/GoEx"
+	"github.com/taylorshuang/GoEx"
 	"github.com/nubo/jwt"
 )
 

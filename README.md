@@ -27,6 +27,7 @@ GoEx项目是为了统一并标准化各个数字资产交易平台的接口而�
 | bittrex.com | Y | N | 1.1 |
 | btcchina.com | Y | Y | 1 |
 | coinbig.com | Y | Y | * |
+|lbank.com | Y | Y | * |
 
 ###安装GoEx库  ``` go get github.com/nntaoli-project/GoEx ```
 

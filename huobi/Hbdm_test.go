@@ -1,9 +1,10 @@
 package huobi
 
 import (
-	"github.com/nntaoli-project/GoEx"
 	"testing"
 	"time"
+
+	"github.com/taylorshuang/GoEx"
 )
 
 var dm = NewHbdm(&goex.APIConfig{

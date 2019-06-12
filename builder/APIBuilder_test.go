@@ -1,9 +1,10 @@
 package builder
 
 import (
-	"github.com/nntaoli-project/GoEx"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/taylorshuang/GoEx"
 )
 
 var builder = NewAPIBuilder()
@@ -17,4 +18,5 @@ func TestAPIBuilder_Build(t *testing.T) {
 	assert.Equal(t, builder.APIKey("").APISecretkey("").Build(goex.POLONIEX).GetExchangeName(), goex.POLONIEX)
 	assert.Equal(t, builder.APIKey("").APISecretkey("").Build(goex.KRAKEN).GetExchangeName(), goex.KRAKEN)
 	assert.Equal(t, builder.APIKey("").APISecretkey("").BuildFuture(goex.HBDM).GetExchangeName(), goex.HBDM)
+	assert.Equal(t, builder.APIKey("").APISecretkey("").BuildFuture(goex.LBANK).GetExchangeName(), goex.LBANK)
 }

@@ -1,7 +1,7 @@
 package allcoin
 
 import (
-	"github.com/nntaoli-project/GoEx"
+	"github.com/taylorshuang/GoEx"
 	"net/http"
 	"testing"
 )

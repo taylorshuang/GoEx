@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/nntaoli-project/GoEx"
 	"github.com/nubo/jwt"
+	"github.com/taylorshuang/GoEx"
 )
 
 const (

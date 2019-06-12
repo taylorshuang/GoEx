@@ -1,10 +1,11 @@
 package aacoin
 
 import (
-	"github.com/nntaoli-project/GoEx"
 	"net/http"
 	"net/url"
 	"testing"
+
+	"github.com/taylorshuang/GoEx"
 )
 
 var aa = New(http.DefaultClient, "xxx", "b0xxxxxx-c6xxxxxx-94xxxxxx-dxxxx")
